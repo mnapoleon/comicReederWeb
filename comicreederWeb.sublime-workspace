@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"boot",
+				"bootstrap-theme"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"wra",
+				"wrapperDiv"
+			],
+			[
+				"in",
+				"invoke"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"link",
+				"link-to"
+			],
+			[
+				"ac",
+				"activeClass"
+			],
+			[
+				"E",
+				"EditTodoView"
+			],
+			[
+				"is",
+				"isEditing"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"te",
+				"textAlign"
+			],
+			[
+				"ri",
+				"rightEdge"
+			],
+			[
+				"pa",
+				"payments"
+			],
+			[
+				"pay",
+				"paymentToX"
+			],
+			[
+				"am",
+				"amountToY"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"g",
+				"graph"
+			],
+			[
+				"lo",
+				"loan_years"
+			],
+			[
+				"loan",
+				"loan_apr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"tot",
+				"totalinterest"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"update",
+				"updatetime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"RE",
+				"SublimeREPL: Node"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michaelnapoleon/Desktop/assignment#2.txt",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/dribble/app.js",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/dribble/index.html",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/dribble/jquery.js",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/ex1/app.js",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/ex1/index.html",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/ex1/jquery.js",
+		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/beginning_jquery.sublime-project",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/js/views/edit_todo_view.js",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/js/router.js",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/js/application.js",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/js/controllers/todo_controller.js",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/js/controllers/todos_controller.js",
+		"/Volumes/lacklusterspectacular.com/emberTutorial/index.html",
+		"/Volumes/lacklusterspectacular.com 2/ember/js/router.js",
+		"/Volumes/lacklusterspectacular.com 2/ember/js/application.js",
+		"/Volumes/lacklusterspectacular.com 2/ember/js/models/todo.js",
+		"/Volumes/lacklusterspectacular.com 2/ember/index.html",
+		"/Volumes/lacklusterspectacular.com 2/ember/js/controllers/todos_controller.js",
+		"/Volumes/lacklusterspectacular.com 2/ember/style.css",
+		"/Volumes/lacklusterspectacular.com 2/ember/bg.png",
+		"/Volumes/lacklusterspectacular.com 2/app.js",
+		"/Users/michaelnapoleon/dev/ember/js/router.js",
+		"/Users/michaelnapoleon/dev/ember/js/application.js",
+		"/Users/michaelnapoleon/dev/ember/models/todo.js",
+		"/Users/michaelnapoleon/dev/ember/index.html",
+		"/Users/michaelnapoleon/dev/loancalculator/calculator.html",
+		"/Users/michaelnapoleon/dev/loancalculator/libs/calculator.js",
+		"/Users/michaelnapoleon/Dropbox/books/key1",
+		"/Users/michaelnapoleon/dev/loancalculator/calculator.js",
+		"/Users/michaelnapoleon/coursea/statsOneCourse/README.md",
+		"/Users/michaelnapoleon/Downloads/d09bd19f-3bf8-4174-969c-c5f4034abb9b_1386362530_export/Comics.json",
+		"/Users/michaelnapoleon/coursea/statsOneCourse/Lab10/Stats101-Assignment10.R",
+		"/Users/michaelnapoleon/coursea/statsOneCourse/Lab10/supplemental-Stats1.13.Lab.10.R",
+		"/Users/michaelnapoleon/coursea/reactiveScala/.gitignore",
+		"/Users/michaelnapoleon/coursea/reactiveScala/quickcheck/.gitignore",
+		"/Users/michaelnapoleon/coursea/statsOneCourse/Lab7/Stats101-Assignment7.R",
+		"/Users/michaelnapoleon/Downloads/res/values-v11/themes_greenlanternholo.xml",
+		"/Users/michaelnapoleon/Downloads/res/values/styles_greenlanternholo.xml",
+		"/Users/michaelnapoleon/Downloads/res/values/dimens.xml",
+		"/Users/michaelnapoleon/AndroidStudioProjects/ComicReederProject/ComicReeder/src/main/res/values/attrs.xml",
+		"/Users/michaelnapoleon/Downloads/res/values/themes_darkbluehololightdark.xml",
+		"/Users/michaelnapoleon/dev/comicvine_api/src/main/scala/com/comicreeder/hw.scala",
+		"/Users/michaelnapoleon/dev/comicvine_api/build.sbt",
+		"/Users/michaelnapoleon/Downloads/res/values/attrs.xml",
+		"/Users/michaelnapoleon/dev/comicvine_api/exampleIssue.json",
+		"/Users/michaelnapoleon/dev/comicvine_api/project/build.properties",
+		"/Users/michaelnapoleon/dev/comicvine_api/location.scala",
+		"/Users/michaelnapoleon/dev/comicvine_api/.gitignore",
+		"/Users/michaelnapoleon/AndroidStudioProjects/ComicReederProject/.git/config",
+		"/Users/michaelnapoleon/bb/comicreeder-android/.git/config",
+		"/Users/michaelnapoleon/Downloads/settings.xml",
+		"/Users/michaelnapoleon/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/michaelnapoleon/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/michaelnapoleon/dev/kaiseki/test/files.test.js",
+		"/Users/michaelnapoleon/dev/kaiseki/test/push.test.js",
+		"/Users/michaelnapoleon/dev/kaiseki/test/analytics.test.js",
+		"/Users/michaelnapoleon/dev/kaiseki/test/config.js",
+		"/Users/michaelnapoleon/dev/kaiseki/Makefile",
+		"/Users/michaelnapoleon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/michaelnapoleon/dev/kaiseki/test/analytics.test",
+		"/Applications/Android Studio.app/sdk/samples/android-18/legacy/ApiDemos/src/com/example/android/apis/view/List4.java",
+		"/Users/michaelnapoleon/Downloads/AndroidTestingFun/app/tests/src/com/example/android/testingfun/tests/lesson2/MyFirstTestActivityTest.java",
+		"/Users/michaelnapoleon/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "comicreederWeb.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
