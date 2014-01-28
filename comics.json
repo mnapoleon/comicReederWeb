@@ -16,5 +16,17 @@
     "issue_number": "1",
     "writer": "Scott Synder",
     "publisher": "DC Comics"
+  },
+  {
+    "comic_name": "Batman",
+    "issue_number": "2",
+    "writer": "Scott Synder",
+    "publisher": "DC Comics"
+  },
+  {
+    "comic_name": "Superior Spider-Man",
+    "issue_number": "1",
+    "writer": "Dan Slott",
+    "publisher": "Marvel"
   }
 ]

@@ -1,14 +1,15 @@
 /** @jsx React.DOM */
-var ComicList = React.createClass({
+var ComicListTable = React.createClass({
   getInitialState: function() {
-    return {data: []};  
+    return {data: []};
   },
-  
+
   componentWillMount: function() {
     $.ajax({
       url: 'comics.json',
       dataType: 'json',
       success: function(data) {
+        console.log("comics.json was loaded successfully")
         this.setState({data: data});  
       }.bind(this),
       error: function(xhr, status, err) {
@@ -16,11 +17,34 @@ var ComicList = React.createClass({
       }.bind(this)
     });  
   },
-  
+
   render: function() {
-    console.log(this.props.data);
+    return (
+      <div>
+        <table className="table table-striped">
+          <thead>
+            <tr>
+              <th>Comic</th>
+              <th>Issue #</th>
+              <th>Writer</th>
+              <th>Publisher</th>
+            </tr>
+          </thead>
+          <ComicList data={this.state.data} />
+        </table>
+      </div>);
+  }
+});
+
+var ComicList = React.createClass({
+  render: function() {
     var comicRows = this.props.data.map(function (comic) {
-      return <tr><td>{comic.comic_name}</td><td>{comic.issue_number}</td><td>{comic.writer}</td><td>{comic.publisher}</td></tr>;  
+      return (<tr>
+                <td>{comic.comic_name}</td>
+                <td>{comic.issue_number}</td>
+                <td>{comic.writer}</td>
+                <td>{comic.publisher}</td>
+              </tr>);  
     });
     var tableContents = (
       <tbody>
@@ -32,6 +56,6 @@ var ComicList = React.createClass({
 });
 
 React.renderComponent(
-  <ComicList />,
-  document.getElementById('comiclist')
+  <ComicListTable />,
+  document.getElementById('content')
 );
