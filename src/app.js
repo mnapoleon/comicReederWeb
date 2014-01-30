@@ -5,17 +5,31 @@ var ComicListTable = React.createClass({
   },
 
   componentWillMount: function() {
-    $.ajax({
-      url: 'comics.json',
-      dataType: 'json',
-      success: function(data) {
-        console.log("comics.json was loaded successfully")
-        this.setState({data: data});  
+    Parse.initialize("uKoPYsEPCuxyfZT3M5lyTytsiyZij0RHCSY1VuZ4", "fEBQhKgD6Rw3NIBmjNvrc8SXHspGhucBEEVGh7cy");
+
+    Parse.User.logIn("miken", "sprout77", {
+      success: function(user) {
+        console.log("Login succeeded");
+      },
+      error: function(user, error) {
+        console.error("Login failed");
+      }
+    });
+
+    var Comics = Parse.Object.extend("Comics");
+    var query = new Parse.Query(Comics);
+    query.ascending("comicName", "issue");
+    query.find({
+      success: function(results) {
+        console.log(results.length);
+        var object = results[0];
+        console.log(object.get('comicName'));
+        this.setState({data: results});
       }.bind(this),
-      error: function(xhr, status, err) {
-        console.error("comics.json", status, err.toString());
+      error: function(error) {
+        console.error("query.find failed");
       }.bind(this)
-    });  
+    });
   },
 
   render: function() {
@@ -39,11 +53,12 @@ var ComicListTable = React.createClass({
 var ComicList = React.createClass({
   render: function() {
     var comicRows = this.props.data.map(function (comic) {
+      console.log(comic);
       return (<tr>
-                <td>{comic.comic_name}</td>
-                <td>{comic.issue_number}</td>
-                <td>{comic.writer}</td>
-                <td>{comic.publisher}</td>
+                <td>{comic.get('comicName')}</td>
+                <td>{comic.get('issue')}</td>
+                <td>{comic.get('writer')}</td>
+                <td>{comic.get('publisher')}</td>
               </tr>);  
     });
     var tableContents = (
