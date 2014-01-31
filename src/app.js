@@ -6,13 +6,13 @@ var ComicListTable = React.createClass({
 
   componentWillMount: function() {
     Parse.initialize("uKoPYsEPCuxyfZT3M5lyTytsiyZij0RHCSY1VuZ4", "fEBQhKgD6Rw3NIBmjNvrc8SXHspGhucBEEVGh7cy");
-
     Parse.User.logIn("miken", "sprout77", {
       success: function(user) {
         console.log("Login succeeded");
       },
       error: function(user, error) {
         console.error("Login failed");
+        alert("Login failed!!!");
       }
     });
 
@@ -55,6 +55,7 @@ var ComicList = React.createClass({
     var comicRows = this.props.data.map(function (comic) {
       console.log(comic);
       return (<tr>
+                <td><img src={comic.get('smallIconUrl')}/></td>
                 <td>{comic.get('comicName')}</td>
                 <td>{comic.get('issue')}</td>
                 <td>{comic.get('writer')}</td>
