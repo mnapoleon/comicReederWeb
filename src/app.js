@@ -21,9 +21,7 @@ var ComicListTable = React.createClass({
     query.ascending("comicName", "issue");
     query.find({
       success: function(results) {
-        console.log(results.length);
         var object = results[0];
-        console.log(object.get('comicName'));
         this.setState({data: results});
       }.bind(this),
       error: function(error) {
@@ -53,14 +51,7 @@ var ComicListTable = React.createClass({
 var ComicList = React.createClass({
   render: function() {
     var comicRows = this.props.data.map(function (comic) {
-      console.log(comic);
-      return (<tr>
-                <td><img src={comic.get('smallIconUrl')}/></td>
-                <td>{comic.get('comicName')}</td>
-                <td>{comic.get('issue')}</td>
-                <td>{comic.get('writer')}</td>
-                <td>{comic.get('publisher')}</td>
-              </tr>);  
+      return (<ComicRow comic={comic} />);  
     });
     var tableContents = (
       <tbody>
@@ -71,7 +62,46 @@ var ComicList = React.createClass({
   }
 });
 
+var ComicRow = React.createClass({
+  getInitialState: function() {
+    return {comic: {}};
+  },
+
+  handleClick: function(event) {
+    alert("Comic was clicked on");
+  },
+
+  render: function() {
+    return (<tr onClick={this.handleClick}>
+              <td><img src={this.props.comic.get('smallIconUrl')}/></td>
+              <td>{this.props.comic.get('comicName')}</td>
+              <td>{this.props.comic.get('issue')}</td>
+              <td>{this.props.comic.get('writer')}</td>
+              <td>{this.props.comic.get('publisher')}</td>
+            </tr>);  
+  }
+});
+
+var ComicInfo = React.createClass({
+  getInitialState: function() {
+    return {comicInfo: {}};
+  },
+
+  render: function() {
+    return (<div>
+        <img src={this.props.comicInfo.get('smallIconUrl')}/>
+        <h2>{this.props.comicInfo.get('comicName')}</h2>
+        <h3>{this.props.comicInfo.get('issue')}</h3>
+        <h3>{this.props.comicInfo.get('writer')}</h3>
+        <h3>{this.props.comicInfo.get('publisher')}</h3>
+        </div>
+    );
+  }
+});
+
 React.renderComponent(
-  <ComicListTable />,
+  <div>
+    <ComicListTable />
+  </div>,
   document.getElementById('content')
 );

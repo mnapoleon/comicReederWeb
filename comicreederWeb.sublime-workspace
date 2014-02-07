@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"the",
+				"theData"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"get",
+				"getInitialState"
+			],
+			[
+				"com",
+				"comicRows"
+			],
+			[
+				"Comi",
+				"ComicListTable"
+			],
+			[
+				"re",
+				"renderComponent"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
 				"boot",
 				"bootstrap-theme"
 			],
@@ -116,10 +144,6 @@
 				"loan_apr"
 			],
 			[
-				"get",
-				"getElementById"
-			],
-			[
 				"tot",
 				"totalinterest"
 			],
@@ -147,7 +171,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 906,
+				"buffer_size": 851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 2021,
 				"line_ending": "Unix"
 			}
 		}
@@ -196,6 +228,10 @@
 	},
 	"file_history":
 	[
+		"/Users/michaelnapoleon/dev/comicReederWeb/comics.json",
+		"/Users/michaelnapoleon/Desktop/comics.json",
+		"/Users/michaelnapoleon/Dropbox/Nest.txt",
+		"/Users/michaelnapoleon/dev/comicReederWeb/js/app.js",
 		"/Users/michaelnapoleon/Desktop/assignment#2.txt",
 		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/dribble/app.js",
 		"/Users/michaelnapoleon/Dropbox/code/beginning_jQuery/ch08/dribble/index.html",
@@ -294,7 +330,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -303,15 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 906,
+						"buffer_size": 851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								458,
-								458
+								752,
+								752
 							]
 						],
 						"settings":
@@ -320,6 +356,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
