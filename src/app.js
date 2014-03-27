@@ -6,7 +6,7 @@ var ComicListTable = React.createClass({
 
   componentWillMount: function() {
     Parse.initialize("uKoPYsEPCuxyfZT3M5lyTytsiyZij0RHCSY1VuZ4", "fEBQhKgD6Rw3NIBmjNvrc8SXHspGhucBEEVGh7cy");
-    Parse.User.logIn("miken", "sprout77", {
+    Parse.User.logIn("miken", "evan101110", {
       success: function(user) {
         console.log("Login succeeded");
       },
